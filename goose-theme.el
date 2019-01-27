@@ -167,8 +167,9 @@
  '(mu4e-header-highlight-face ((t (:background "#B0B0B0"))))
  '(mu4e-header-key-face ((t (:weight bold))))
  ;; org
- '(org-block ((t (:inherit org-block-begin-line))))
- '(org-block-end-line ((t (:inherit org-block-begin-line))) t)
+ '(org-block-begin-line ((t (:foreground "#444444" :background "#A0A0A0"))))
+ '(org-block ((t (:foreground "#444444" :background "#C0C0C0"))))
+ '(org-block-end-line ((t (:foreground "#444444" :background "#A0A0A0"))))
  '(org-document-info ((t (:inherit org-meta-line))))
  '(org-document-info-keyword ((t (:inherit org-meta-line))))
  '(org-document-title ((t (:inherit org-meta-line :weight bold))))
