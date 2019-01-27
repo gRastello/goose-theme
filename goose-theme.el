@@ -1,9 +1,9 @@
 ;;; goose-theme.el --- A gray color theme
 
-;; Copyright (c) 2016 Stephen Whipple
+;; Copyright (c) 2016 Stephen Whipple, 2019 Gabriele Rastello
 
-;; Author: Stephen Whipple <shw@wicdmedia.org>
-;; URL: https://github.com/thwg/goose-theme
+;; Authors: Stephen Whipple <shw@wicdmedia.org>, Gabriele Rastello <gabriele.rastello@edu.unito.it>
+;; URL: https://github.com/gRastello/goose-theme
 ;; Package-Version: 20160828.1245
 ;; Version: 2.0.0
 ;; Package-Requires: ((emacs "24.1"))
@@ -20,6 +20,12 @@
 
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Author notes:
+
+;; This specific version of the goose-theme is a fork of the original
+;; thing by Gabriele Rastello. If you're interested in the original code
+;; plese refer to https://github.com/tokenrove/goose-theme
 
 ;;; Commentary:
 
