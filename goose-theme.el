@@ -4,6 +4,7 @@
 
 ;; Author: Stephen Whipple <shw@wicdmedia.org>
 ;; URL: https://github.com/thwg/goose-theme
+;; Package-Version: 20160828.1245
 ;; Version: 2.0.0
 ;; Package-Requires: ((emacs "24.1"))
 
@@ -55,12 +56,14 @@
  '(fringe ((t (:background "#CECECE"))))
  '(header-line ((t (:inherit mode-line))))
  '(highlight ((t (:background "#B0B0B0"))))
+ '(hl-line ((t (:background "#C0C0C0"))))
  '(link ((t (:foreground "#0000AA" :underline t))))
- '(link-visited ((t (:inherit link :foreground "#440044"))))
+ '(link-visited ((t (:inherit link :foreground "#44n0044"))))
+ '(linum ((t (:foreground "black" :slant italic))))
  '(minibuffer-prompt ((t (:weight bold))))
- '(mode-line ((t (:background "#A0A0A0"))))
- '(mode-line-inactive ((t (:inherit mode-line))))
- '(region ((t (:background "#C0C0C0"))))
+ '(mode-line ((t (:background "#A0A0A0" :box (:line-width 6 :color "#A0A0A0")))))
+ '(mode-line-inactive ((t (:background "grey75" :box (:line-width 6 :color "grey75")))))
+ '(region ((t (:background "#E0E0E0"))))
  '(secondary-selection ((t (:background "#C0C0C0"))))
  '(underline ((t nil)))
  '(variable-pitch ((t nil)))
