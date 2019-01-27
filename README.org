@@ -5,6 +5,11 @@ A low-contrast Emacs theme that reduces unnecessary coloring, especially when ed
 
 [[./preview.png]]
 
+* Changes 
++ Bigger mode line similar to that of themes like =zerodark=.
++ =linum-mode= numbers always black and in italics.
++ Marked region color is noticeable if =hl-line-mode= is on.
+
 * License
 Copyright (c) 2016 Stephen Whipple
 
